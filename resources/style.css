@@ -1,0 +1,148 @@
+body {
+    font-family: 'Madimi One' ,'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin: 0;
+    background-color: lightcoral;
+}
+
+nav {
+    padding-top: 1rem;
+    background-color: blueviolet;
+    color: lightcoral
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    color: lightcoral;
+    padding: .5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcome {
+    height: 30rem;
+    padding-top: 1rem;
+    background-color: lightcoral;
+    background-position: center;
+    }
+
+.welcome h1 {
+    color:chartreuse;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: gray;
+    text-align: center;
+}
+
+.landing,
+.photos,
+.awards,
+.signup {
+    margin: 4em auto;
+}
+
+.landing {
+    padding-left: 1rem;
+}
+
+.landing h2 {
+    color: seagreen;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-block-start: .83em;
+    margin-block-end: .83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.summary p {
+    color: aquamarine;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.photos {
+    display: flex;
+
+}
+
+.photos img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.awards {
+    padding-left: 1rem;
+}
+
+.signup {
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1048px) {
+
+    .photos img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .landing h1 {
+      margin-top: 2rem;
+    }
+  
+    .landing {
+      max-height: 200px;
+    }
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+
+    .awards h1 {
+      font-size: 2rem;
+    }
+  
+    .photos img {
+      width: 100%;
+    }
+  }
+  
+  
